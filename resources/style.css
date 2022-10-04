@@ -21,6 +21,24 @@ h5 a {
     color: seashell;
 }
 
+.parent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    z-index: 200;
+    background-color: black;
+    opacity: 1;
+    width: 100%;
+  }
+
+  .wrapper {
+    position: relative;
+    top: 69px;
+
+    z-index: 1;
+  }
 
 /* Navbar */
 #logo {
@@ -32,7 +50,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-bottom: 1px solid seashell;
 }
 
