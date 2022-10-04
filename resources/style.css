@@ -55,6 +55,17 @@ nav {
     border-bottom: 1px solid seashell;
 }
 
+@media only screen and (max-width: 600px) {
+    li a {
+      font-size: .75em;
+    }
+
+    #mission_section h4 {
+        font-weight: normal;
+        font-size: smaller;
+    }
+  }
+
 
 li {
     display: inline;
@@ -155,6 +166,7 @@ figcaption{
     flex-wrap: wrap;
     gap: 40px;
     margin-top: 15px;
+    padding-bottom: 10px;
 }
 
 .location {
