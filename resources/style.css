@@ -1,4 +1,5 @@
 .main_container {
+    margin: 0 auto;
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
@@ -50,7 +51,7 @@ li a:active {
     margin: 0 auto;
     background-image: url('./images/img-mission-background.jpg');
     height: 700px;
-    width: 1200px;
+    max-width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,6 +65,36 @@ li a:active {
     width: 1200px;
     height: 10%;
     padding: .7em 0;
+}
+
+
+/* Tea of the month */
+figure img{
+    width: 300px;
+    margin-top: 25px;
+}
+
+#tea_section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#tea_images_header {
+    display: flex;
+    flex-direction: column;
+    height: 6em;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+#tea_images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+figcaption{
+    margin-top: 10px;
 }
 
 
