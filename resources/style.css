@@ -97,4 +97,41 @@ figcaption{
     margin-top: 10px;
 }
 
+/* Locations */
+
+#locations_section {
+    background-image: url('./images/img-locations-background.jpg');
+    min-height: 500px;
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#locations_section h2 {
+    margin-top: 15px;
+}
+
+#locations_div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 15px;
+}
+
+.location {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    padding-top: 15px;
+    /* padding-bottom: 25px; */
+    /* line-height: 2.0em; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 300px;
+}
+
 
