@@ -44,3 +44,13 @@ li a:active {
 }
 
 
+/* Mission */
+
+#mission_section {
+    margin: 0 auto;
+    background-image: url('./images/img-mission-background.jpg');
+    height: 700px;
+    width: 1200px;
+}
+
+
