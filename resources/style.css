@@ -6,3 +6,41 @@
     opacity: 0.9;
     text-align: center;
 }
+
+/* Navbar */
+#logo {
+    height: 50px;
+}
+
+nav {
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 10px;
+    border-bottom: 1px solid seashell;
+}
+
+
+li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+li a:link {
+    color: seashell;
+}
+
+li a:visited {
+    color: seashell;
+}
+
+li a:hover {
+    color: rgb(181, 180, 180);
+}
+
+li a:active {
+    color: seashell;
+}
+
+
