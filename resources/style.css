@@ -8,6 +8,10 @@
     text-align: center;
 }
 
+h2 {
+    font-weight: bolder;
+}
+
 /* Navbar */
 #logo {
     height: 50px;
@@ -103,7 +107,7 @@ figcaption{
     background-image: url('./images/img-locations-background.jpg');
     min-height: 500px;
     max-width: 1200px;
-    margin: 60px auto;
+    margin: 60px auto 20px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -134,4 +138,25 @@ figcaption{
     min-height: 300px;
 }
 
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    padding-bottom: 70px;
+}
+
+#copyright {
+    align-self: flex-start;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
 
