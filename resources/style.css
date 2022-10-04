@@ -9,8 +9,18 @@
 }
 
 h2 {
+    font-size: 1.7em;
     font-weight: bolder;
 }
+
+h4, figcaption {
+    font-weight: bold;
+}
+
+h5 a {
+    color: seashell;
+}
+
 
 /* Navbar */
 #logo {
@@ -54,7 +64,7 @@ li a:active {
 #mission_section {
     margin: 0 auto;
     background-image: url('./images/img-mission-background.jpg');
-    height: 700px;
+    min-height: 700px;
     max-width: 1200px;
     display: flex;
     justify-content: center;
@@ -71,6 +81,9 @@ li a:active {
     padding: .7em 0;
 }
 
+#mission_section h2 {
+    margin-bottom: 15px;
+}
 
 /* Tea of the month */
 figure img{
